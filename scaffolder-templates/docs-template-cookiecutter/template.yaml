@@ -2,14 +2,14 @@ apiVersion: backstage.io/v1beta2
 kind: Template
 metadata:
   name: docs-template-cookiecutter
-  title: Documentation Template (Cookiecutter)
+  title: Koustav Documentation Template (Cookiecutter)
   description: Create a new standalone documentation project using Cookiecutter
   tags:
     - techdocs
     - mkdocs
     - cookiecutter
 spec:
-  owner: backstage/techdocs-core
+  owner: Koustav Khanda
   type: documentation
 
   parameters:
