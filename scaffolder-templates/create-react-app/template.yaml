@@ -42,7 +42,7 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - github.com
+              - github.pie.apple.com
   steps:
     - id: template
       name: Fetch Skeleton + Template
@@ -61,7 +61,7 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts: ["github.com"]
+        allowedHosts: ["github.pie.apple.com"]
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
